@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de clientes"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="454dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <EditText
+        android:id="@+id/etDocumento"
+        android:layout_width="394dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Documento"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Identificador Dummy"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="edad"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+</LinearLayout>
