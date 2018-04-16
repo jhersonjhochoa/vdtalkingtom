@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -61,5 +62,10 @@ public class ResultadoActivity extends AppCompatActivity {
             }
         });
         return clientRef;
+    }
+
+    public String getnombrecliente(String id) {
+        CollectionReference citiesRef = mDatabase.collection("cities");
+        return "dummy2";
     }
 }
